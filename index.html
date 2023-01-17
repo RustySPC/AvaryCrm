@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Верстка «avaryCrm»</title>
+</head>
+
+<body>
+	<div class="rootpage">
+		<h1>Верстка «avaryCrm»</h1>
+		<div class="rootpage__info">
+			Особенности проекта
+		</div>
+		<h2>Готовые страницы:</h2>
+		<ol class="rootpage__list">
+			<li><a target="_blank" href="login.html">Вход</a></li>
+			<li><a target="_blank" href="home.html">Главная</a></li>
+			<li><a target="_blank" href="settings.html">Настройки сайта</a></li>
+			<li><a target="_blank" href="addnews.html">Добавить новость</a></li>
+			<li><a target="_blank" href="controlpanel.html">Панель управления</a></li>
+			<li><a target="_blank" href="disbursement.html">Оплата</a></li>
+			<li><a target="_blank" href="editor.html">Редактор роли</a></li>
+			<li><a target="_blank" href="departments.html">Редактор роли (Отделы)</a></li>
+			<li><a target="_blank" href="manager.html">Менеджер пользователей</a></li>
+			<li><a target="_blank" href="news.html">Менеджер категорий новостей</a></li>
+			<li><a target="_blank" href="recent.html">Последние добавленые новости</a></li>
+			<li><a target="_blank" href="archive.html">Информационный архив</a></li>
+		</ol>
+		<h2>Попапы:</h2>
+		<ol class="rootpage__list">
+			<!-- <li><a target="_blank" href="home.html#"></a></li> -->
+			<li><a target="_blank" href="role.html#">Создание роли</a></li>
+			<li><a target="_blank" href="employee.html#">Добавить cотрудника</a></li>
+			<li><a target="_blank" href="change.html#">Изменить меню первого уровня
+					«О предприятии» </a></li>
+			<li><a target="_blank" href="one.html#">Добавить меню первого уровня</a></li>
+			<li><a target="_blank" href="history.html#">ИИзменить меню второго уровня
+					«История предприятия»</a></li>
+			<li><a target="_blank" href="receipt.html#">Платеж</a></li>
+			<li><a target="_blank" href="append.html#">Добавить сотрудника</a></li>
+			<li><a target="_blank" href="edit.html#">Редактировать сотрудника</a></li>
+			<li><a target="_blank" href="link.html#">Добавление ссылки информационного архива</a></li>
+			<li><a target="_blank" href="list.html#">Выпадающий список</a></li>
+			<li><a target="_blank" href="menu.html#">Редактирование
+					«Меню ссылок»</a></li>
+			<li><a target="_blank" href="menu01.html#">Редактирование
+					«Блок с видео»</a></li>
+			<li><a target="_blank" href="menu02.html#">Редактирование
+					«Полезные ссылкина гос. структуры»</a></li>
+			<li><a target="_blank" href="menu10.html#">Редактировать ссылку
+					на социальную сеть</a></li>
+			<li><a target="_blank" href="menu03.html#">Редактирование слайдера«Срочно» на главном экране</a></li>
+			<li><a target="_blank" href="menu04.html#">Редактирование слайдера«Важно» на главном экране</a></li>
+			<li><a target="_blank" href="menu05.html#">Редактирование
+					«горячая линия»</a></li>
+			<li><a target="_blank" href="menu06.html#">Менеджер меню</a></li>
+			<li><a target="_blank" href="media.html#">Медиафайлы</a></li>
+		</ol>
+		<a href="http://dev.ceyahol.site/avary/">Перейти на пользовательскую версию сайта</a>
+	</div>
+</body>
+<style>
+	@charset "UTF-8";
+	@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+	*,
+	*::before,
+	*::after {
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		min-width: 320px;
+		width: 100%;
+		color: #fff;
+		background-color: #fff;
+	}
+
+	body {
+		font-family: Montserrat;
+		font-size: 100%;
+		line-height: 1;
+		font-size: 1rem;
+	}
+
+	a {
+		text-decoration: underline;
+		color: #000
+	}
+
+	a:visited {
+		text-decoration: underline;
+		color: #000;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	img {
+		vertical-align: top;
+	}
+
+	.wrapper {
+		width: 100%;
+		min-height: 100%;
+		overflow: hidden;
+	}
+
+	.rootpage {
+		padding: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	@media (max-width: 767px) {
+		.rootpage {
+			padding: 30px 15px;
+		}
+	}
+
+	h1 {
+		color: #000;
+		font-size: 2.5rem;
+		margin: 0px 0px 1.25rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h1 {
+			font-size: 1.85rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+	}
+
+	h2 {
+		color: #000;
+		font-size: 1.25rem;
+		margin: 0px 0px 1rem 0px;
+	}
+
+	@media (max-width: 767px) {
+		h2 {
+			font-size: 1.125rem;
+			margin: 0px 0px 1rem 0px;
+		}
+	}
+
+	.rootpage__info {
+		line-height: 140%;
+		margin: 0px 0px 1.5rem 0px;
+	}
+
+	.rootpage__list {
+		margin: 0px 0px 2.25rem 1.25rem;
+	}
+
+	.rootpage__list li:not(:last-child) {
+		margin: 0px 0px 15px 0px;
+	}
+
+	.rootpage__contacts,
+	.rootpage__tnx {
+		border-radius: 200px;
+		padding: 20px 65px;
+		line-height: 140%;
+	}
+
+	@media (max-width: 767px) {
+
+		.rootpage__contacts,
+		.rootpage__tnx {
+			border-radius: 40px;
+			padding: 20px;
+		}
+	}
+</style>
+
+</html>

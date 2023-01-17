@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220324132713">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js?_v=20220324132713"></script>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__logo">
+
+						<div class="header__logo-item">
+							<a href="">
+								<div class="header__logo-img">
+									<img data-src="img/header/01.svg" alt="">
+								</div>
+								<p>
+									Центральная <span>аварийная</span> <br>
+									дежурно-диспетчерская служба
+								</p>
+							</a>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+				<div class="header__menu menu">
+					<div class="menu__nav">
+						<nav class="menu__body">
+							<div data-spollers class="spollers">
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i1.svg" alt=""></span>
+											Панель управления</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i2.svg" alt=""></span>
+											Главная страница </a>
+										<button type="button" data-spoller>
+											<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 1L4.85858 4.85858C4.93668 4.93668 5.06332 4.93668 5.14142 4.85858L9 1" stroke="#8C9196" stroke-width="1.5" />
+											</svg>
+										</button>
+									</div>
+									<ul class="spollers__body">
+										<li><a href="">Настройки страницы</a></li>
+										<li><a href="">Главный экран</a></li>
+										<li><a href="">Контент</a></li>
+									</ul>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i3.svg" alt=""></span>
+											Новости</a>
+										<button type="button" data-spoller>
+											<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 1L4.85858 4.85858C4.93668 4.93668 5.06332 4.93668 5.14142 4.85858L9 1" stroke="#8C9196" stroke-width="1.5" />
+											</svg>
+										</button>
+									</div>
+									<ul class="spollers__body">
+										<li><a href="">Все новости</a></li>
+										<li><a href="">Добавить новость</a></li>
+										<li><a href="">Менеджер кат. новостей</a></li>
+									</ul>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i4.svg" alt=""></span>
+											Информационный архив</a>
+										<button type="button" data-spoller>
+											<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 1L4.85858 4.85858C4.93668 4.93668 5.06332 4.93668 5.14142 4.85858L9 1" stroke="#8C9196" stroke-width="1.5" />
+											</svg>
+										</button>
+									</div>
+									<ul class="spollers__body">
+										<li><a href="">Информационный архив</a></li>
+										<li><a href="">Добавить запись</a></li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+						<div class="menu__title">
+							Система
+						</div>
+						<nav class="menu__body">
+							<div data-spollers class="spollers">
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i5.svg" alt=""></span>
+											Менеджер меню</a>
+									</div>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i6.svg" alt=""></span>
+											Менеджер пользоват.</a>
+										<button type="button" data-spoller>
+											<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 1L4.85858 4.85858C4.93668 4.93668 5.06332 4.93668 5.14142 4.85858L9 1" stroke="#8C9196" stroke-width="1.5" />
+											</svg>
+										</button>
+									</div>
+									<ul class="spollers__body">
+										<li><a href="">Настройки страницы</a></li>
+										<li><a href="">Главный экран</a></li>
+										<li><a href="">Контент</a></li>
+									</ul>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i7.svg" alt=""></span>
+											Настройки сайта</a>
+										<button type="button" data-spoller>
+											<svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1 1L4.85858 4.85858C4.93668 4.93668 5.06332 4.93668 5.14142 4.85858L9 1" stroke="#8C9196" stroke-width="1.5" />
+											</svg>
+										</button>
+									</div>
+									<ul class="spollers__body">
+										<li><a href="">Все новости</a></li>
+										<li><a href="">Добавить новость</a></li>
+										<li><a href="">Менеджер кат. новостей</a></li>
+									</ul>
+								</div>
+								<div class="spollers__item">
+									<div class="spollers__name">
+										<a href="" class="spollers__title">
+											<span><img data-src="img/header/i8.svg" alt=""></span>
+											Оплата услуг</a>
+									</div>
+
+								</div>
+							</div>
+						</nav>
+					</div>
+					<div class="menu__person">
+						<div class="menu__name">Алексей Воскресенский</div>
+						<div class="menu__position">Супер-администратор </div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page ">
+			<section class="top controlpanel">
+				<div class='top__container'>
+					<div class="top__title _title">Панель управления</div>
+				</div>
+			</section>
+			<section class="controlpanel">
+				<div class='controlpanel__container '>
+					<div class="controlpanel__top ">
+						<div class=" controlpanel__item">
+							<div class="controlpanel__number">657</div>
+							<div class="controlpanel__about">Кол-во посетителей
+								за последнюю неделю</div>
+						</div>
+						<div class="controlpanel__item">
+							<div class="controlpanel__number">101</div>
+							<div class="controlpanel__about">Кол-во просмотров всех
+								новостей за последний месяц</div>
+						</div>
+						<div class="controlpanel__item">
+							<div class="controlpanel__number">82</div>
+							<div class="controlpanel__about">Кол-во просмотров всех информационных
+								страниц за последний месяц</div>
+						</div>
+					</div>
+					<div class="controlpanel__row">
+
+						<div class="controlpanel__column">
+							<div class="controlpanel__title">
+								График количества людей, воспользовавшихся формой оплаты услуг за последний месяц
+							</div>
+							<div class="chart-wrapper">
+								<canvas id="char1"></canvas>
+							</div>
+
+						</div>
+						<div class="controlpanel__column">
+							<div class="controlpanel__title">
+								Количество посетителей за последнюю неделю
+							</div>
+							<div class="chart-wrapper">
+								<canvas id="char2"></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20220324132713"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?_v=20220324132713"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js?_v=20220324132713" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?_v=20220324132713">
+</body>
+
+</html>
